@@ -13,16 +13,23 @@ a{
     text-decoration-line: none;
     color: #3A3845;
 }
-.header{
-    background-color: white;
+.container{
+    width: 80%;
+    margin: auto;
+}
+.header .container{
+    color: #3A3845;
     display: flex;
+    flex-wrap: wrap;
     box-sizing: border-box;
     justify-content: space-between;
-    color: #3A3845;
     align-items: center;
 }
+.header{
+    background-color: white;
+}
 .header .logo{
-    padding: 21.84px;
+    padding: 21.84px 0px;
 
 }
 .header .list ul{
